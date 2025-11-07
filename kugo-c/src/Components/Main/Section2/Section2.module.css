@@ -1,0 +1,41 @@
+.allcatalogue {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    .fornazv {
+        display: flex;
+        justify-content: space-between;
+        .category {
+            display: flex;
+            column-gap: 1rem;
+            align-items: center;
+            button {
+                background-color:#F4F7FB;
+                color: #5D6C7B;
+                border: none;
+                border-radius: 7px;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+    }
+    .catalogueholder {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-between; 
+        width: 100%; 
+        row-gap: 2rem;
+    }
+    .catalogue {
+        width: 80%;
+        align-self: center;
+        flex-direction: column;
+        display: flex;
+        row-gap: 3rem;
+    }
+}

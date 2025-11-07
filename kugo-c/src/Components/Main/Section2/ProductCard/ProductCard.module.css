@@ -1,0 +1,73 @@
+.cardProduct {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EAEBED;
+    border-radius: 7px;
+    width: 257px;
+    .forbuy {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            align-self: center;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            border: none;
+            border-radius: 7px;
+            background-color: #6F73EE;
+            color: white;
+        }
+    }
+    .forphoto {
+        position: relative;
+        background-color: #F0F1F5;
+        padding: 1rem;
+        img {
+            object-fit: cover;
+        }
+        img:nth-child(1){
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        img:nth-child(3){
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    }
+    .forprices {
+        display: flex;
+        justify-content: space-between;
+        button {
+            background: transparent;
+            border: 1px solid#EAEBED;
+            padding-left: 0.7rem;
+            padding-right: 0.7rem;
+            border-radius: 50px;
+        }
+    }
+    .forinfo {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        row-gap: 1rem;
+        ul {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            row-gap: 1rem;
+            column-gap: 1rem;
+            li {
+                display: flex;
+                column-gap: 0.5rem;
+                align-items: center;
+                div {
+                    align-items: center;
+                    display: flex;
+                }
+            }
+        }
+    }
+}

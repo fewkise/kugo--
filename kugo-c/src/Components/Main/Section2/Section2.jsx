@@ -35,7 +35,7 @@ const ProductPage = () => {
             </div>
             )}
         </ProductData>
-        <button>Смотреть всё</button>
+        <button className={styles.buttonViewAll}>Смотреть всё</button>
         </div>
 
       

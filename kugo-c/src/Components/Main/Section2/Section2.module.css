@@ -39,3 +39,13 @@
         row-gap: 3rem;
     }
 }
+.buttonViewAll {
+    width: 10%;
+    align-self: center;
+    background-color: transparent;
+    border: 1px solid #6F73EE;
+    border-radius: 7px;
+    color: #6F73EE;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}

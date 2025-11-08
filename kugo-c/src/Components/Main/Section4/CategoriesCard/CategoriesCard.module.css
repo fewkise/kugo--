@@ -1,0 +1,21 @@
+.categoryCard {
+    width:255px;
+    .card {
+        position: relative;
+        .opis {
+        position: absolute;
+        bottom: 10px;
+        justify-self: center;
+        left: 30px;
+        background-color: #00000033;
+        backdrop-filter: blur(2px); 
+        color: white;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 7px;
+        }
+    }
+    
+}

@@ -1,0 +1,10 @@
+.prices_card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 7px;
+    flex-direction: column;
+    row-gap: 1rem;
+    border: 1px solid #EAEBED;
+    width: 350px;
+}

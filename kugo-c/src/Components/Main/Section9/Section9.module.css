@@ -1,0 +1,50 @@
+.swiper {
+  width: 100%;
+  overflow: visible; /* чтобы слайды выходили за пределы */
+}
+
+.swiper-wrapper {
+  display: flex !important;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 200px; /* базовая ширина */
+  transition: width 0.3s;
+  box-sizing: border-box;
+}
+
+.swiper-slide:first-child {
+  width: 300px !important;
+}
+.sec_nine_all {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    .sec_nine {
+        width: 80%;
+        row-gap: 3rem;
+        display: flex;
+        flex-direction: column;
+        .fornazv {
+            display: flex;
+            justify-content: space-between;
+            .nazv_left {
+                display: flex;
+                flex-direction: column;
+                row-gap: 2rem;
+                p:nth-child(2){
+                    width: 60%;
+                }
+                p:nth-child(1) {
+                    font-size: 35px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

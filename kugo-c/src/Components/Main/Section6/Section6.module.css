@@ -60,3 +60,21 @@
         }
     }
 }
+.diff {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    justify-content: center;
+    background-image: url('../../../../public/Group\ 1676.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    p {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    a {
+        color: #6F73EE;
+        font-weight: 500;
+    }
+}

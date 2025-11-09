@@ -1,5 +1,5 @@
 .mainSec {
     display: flex;
     flex-direction: column;
-    row-gap: 5rem;
+    row-gap: 7rem;
 }

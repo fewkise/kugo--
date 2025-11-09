@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Section6.module.css'
 import PricesCard from './PricesCard/PricesCard'
 import PricesData from './PricesData/PricesData'
+import catalog from '../../../../public/Group 1676.png'
 const Section6 = () => {
   return (
     <div className={styles.sec_six_all}>
@@ -25,6 +26,10 @@ const Section6 = () => {
                     image={product.image}
                 />
                 ))}
+                <div className={styles.diff}>
+                    <p>Больше в каталоге</p>
+                    <a href="">Перейти</a>
+                </div>
             </div>
       )}
             </PricesData>

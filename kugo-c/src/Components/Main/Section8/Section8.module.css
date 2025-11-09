@@ -1,0 +1,86 @@
+.sec_eight_all {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+        overflow-x: hidden;
+    .reviews {
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto;
+    justify-content: center; 
+    gap: 2rem;
+    overflow-x: hidden;
+        .for_img {
+            position: relative;
+            transition: filter 0.3s ease;
+            z-index: 1;
+            img {
+                border-radius: 7px;
+            }
+        }
+        .img_wrapper {
+        position: relative;
+        display: inline-block; 
+        }
+        .review_card {
+            position: relative;
+            cursor: pointer;
+            display: inline-block; 
+        }
+        .review_card:hover .forhover {
+        display: flex;
+        }
+        .review_card:hover .for_img {
+            filter: blur(3px);
+        }
+        .forhover {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            row-gap: 1rem;
+            padding: 2rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            border-radius: 7px;
+            height: 100%;
+            display: none;
+            transition: 0.5s;
+
+            background: rgba(154, 154, 154, 0.329);
+            z-index: 2;
+            padding: 10px;
+            box-sizing: border-box;
+            p{ 
+                color: white;
+            }
+            .for_stars {
+                display: flex;
+                column-gap: 2rem;
+                flex-wrap: wrap;
+            }
+            .review_top {
+                display: flex;
+                column-gap: 2rem;
+            }
+        }
+    }
+    .for_nazv {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        align-items: center;
+    }
+}
+.for_nazv {
+    p{
+        font-size: 35px;
+        font-weight: 600;text-transform: uppercase;
+    }
+    a {
+        color: #6F73EE;
+    }
+}

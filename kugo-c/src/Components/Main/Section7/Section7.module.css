@@ -1,0 +1,20 @@
+.all_sec_seven {
+    background-image: url('../../../../public/Mask Group (11).png');
+    height: 630px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+        width: 136px;
+        height: 136px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+}

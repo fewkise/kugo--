@@ -82,13 +82,7 @@ const Section9 = () => {
             ))}
           </Swiper>
 
-          <div className={styles.for_navigation}>
-            <button ref={navigationNextRef} aria-label="Next slide">
-              <div>
-                <img src={arrow_2} alt="next" />
-              </div>
-            </button>
-          </div>
+          
         </div>
       </div>
     </div>

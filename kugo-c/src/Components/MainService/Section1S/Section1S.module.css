@@ -1,0 +1,54 @@
+.sec_first_all{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    background-image: url('../../../../public/Mask Group (19).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3rem;
+    border-radius: 15px;
+    button {
+        color: white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 0.7rem;
+        padding-top: 0.7rem;
+        border: none;
+        color: #F3A712;
+        cursor: pointer;
+        border-radius: 7px;
+    }
+    p{
+        color: white;
+    }
+    .twonazv {
+        font-size: 20px;
+
+    }
+    .nazv {
+        font-size: 35px;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+    }
+    .sec_first {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        row-gap: 2rem;
+        padding: 5rem;
+        .forvidsinside {
+            display: flex;
+            column-gap: 2rem;
+        }
+        .forvids {
+            display: flex;
+            column-gap: 3rem;
+            
+        }
+    }
+}

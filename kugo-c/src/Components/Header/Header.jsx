@@ -12,14 +12,14 @@ import balance from '../../../public/balance 2.png'
 import heart from '../../../public/Heart.png'
 import cart from '../../../public/shopping-cart 2.png'
 import percent from '../../../public/percent.png'
-
+import { Link, useLocation } from 'react-router-dom'
 const Header = () => {
   return (
     <header>
       <div className={styles.nadnav}>
         <div className={styles.dannav}>
         <ul>
-          <li><a href="">Сервис</a></li>
+          <Link to="/Service"><li><a href="">Сервис</a></li></Link>
           <li><a href="">Сотрудничество</a></li>
           <li><a href="">Заказать звонок</a></li>
           <li><a href=""><div><img src={logo_1} alt="" /></div></a><a href=""><div><img src={logo_2} alt="" /></div></a><a href=""><div><img src={logo_3} alt="" /></div></a></li>
@@ -32,9 +32,9 @@ const Header = () => {
       </div>
       <nav>
         <div className={styles.firstnav}>
-          <div>
+          <Link to="/"><div>
             <img src={kugoo} alt="" />
-          </div>
+          </div></Link>
           <button><div><img src={tripoloski} alt="" /></div><p>Каталог</p></button>
         </div>
 

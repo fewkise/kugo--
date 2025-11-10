@@ -1,15 +1,13 @@
 .swiper {
   width: 100%;
-  overflow: visible; /* чтобы слайды выходили за пределы */
+  overflow: visible; 
 }
 
-.swiper-wrapper {
-  display: flex !important;
-}
+
 
 .swiper-slide {
   flex-shrink: 0;
-  width: 200px; /* базовая ширина */
+  width: 200px; 
   transition: width 0.3s;
   box-sizing: border-box;
 }

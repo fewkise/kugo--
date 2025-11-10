@@ -1,0 +1,55 @@
+.sec_ten_all {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .sec_ten {
+     width: 80%;
+        row-gap: 3rem;
+        display: flex;
+        flex-direction: column;
+        .statstop {
+            display: flex;
+            column-gap: 2rem;
+        }
+        .slide{
+            display: flex;
+            flex-direction: column;
+            .forstats {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: auto;
+                column-gap: 1rem;
+            }
+            div {
+                width: 100%;
+               
+            }
+            .opis{
+                width: 84%;
+                padding: 1rem;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                row-gap: 1rem;
+                background-color: #F4F7FB;
+                border-radius: 7px;
+                .fortitle {
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+.fornazv {
+    p {
+        font-size: 35px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}

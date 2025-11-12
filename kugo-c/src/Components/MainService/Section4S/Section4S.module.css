@@ -1,0 +1,38 @@
+.sec_four_all {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    .sec_four {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        padding: 5rem;
+        column-gap: 15rem;
+        border-radius: 17px;
+        background-color: #539DFF;
+        .reason {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            justify-content: center;
+            button {
+                padding-left: 2rem;
+                padding-right: 2rem;
+                padding-bottom: 0.7rem;
+                padding-top: 0.7rem;
+                color: #3C89FD;
+                border-radius: 7px;
+                cursor: pointer;
+                border: none;
+            }
+            p{
+                font-size: 35px;
+                font-weight: 600;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

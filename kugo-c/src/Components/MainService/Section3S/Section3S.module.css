@@ -1,0 +1,88 @@
+.sec_three_all {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    .sec_three {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        row-gap: 3rem;
+        .prices {
+            display: flex;
+            justify-content: space-between;
+            .spravaprice {
+                display: flex;
+                flex-direction: column;
+                
+                
+                width: 60%;
+                border: 1px solid #EAEBED;
+                border-radius: 17px;
+                .contr {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 2rem;
+                    border-bottom: 1px solid #EAEBED;
+                    
+                }
+            }
+            .slevaprice {
+                display: flex;
+                flex-direction: column;
+                row-gap: 2rem;
+                padding: 2rem;
+                border-radius: 7px;
+                background-color: #F4F7FB;
+                width: 30%;
+                div {
+                    padding: 1rem;
+                    cursor: pointer;
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .nazv {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            align-self: center;
+            text-align: center;
+            justify-self: center;
+            p:nth-child(1){
+                font-size: 35px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+            p:nth-child(2){
+                width: 60%;
+                align-self: center;
+            }
+            .category {
+                display: flex;
+                column-gap: 2rem;
+                align-self: center;
+                
+                button:nth-child(1){
+                    background-color: transparent;
+                    border: 1px solid #6F73EE;
+                    color: #6F73EE;
+                }
+                button {
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                    padding-bottom: 0.5rem;
+                    padding-top: 0.5rem;
+                    background-color: #F4F7FB;
+                    border-radius: 7px;
+                    border: none;
+                    cursor: pointer;
+                    color: #5D6C7B;
+                }
+            }
+        }
+    }
+}

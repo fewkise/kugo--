@@ -1,0 +1,76 @@
+.sec_six_all {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    .sec_six {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4rem;
+        width: 80%;
+        align-self: center;
+        .forbtn {
+            align-self: center;
+            justify-self: center;
+            button {
+                padding-left: 2rem;
+                padding-right: 2rem;
+                padding-bottom: 0.7rem;
+                padding-top: 0.7rem;
+                background-color: #6F73EE;
+                border-radius: 7px;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+        }
+        .for_prices {
+            display: flex;
+            justify-content: space-between;
+            .prices_left {
+                display: flex;
+                flex-direction: column;
+                width: 45%;
+                .vides {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 2rem;
+                    border-bottom: 1px solid #EAEBED;
+                    p:nth-child(2){
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .nazv {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            align-items: center;
+            justify-content: center;
+            .forbtns {
+                display: flex;
+                column-gap: 3rem;
+                button:nth-child(1){
+                    color:#6F73EE ;
+                    border: 1px solid #6F73EE;
+                }
+                button {
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                    padding-top: 0.7rem;
+                    padding-bottom: 0.7rem;
+                    background-color: #F4F7FB;
+                    border-radius: 7px;
+                    color: #5D6C7B;
+                    border: none;
+                }
+            }
+            p:nth-child(1){
+                font-size: 35px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

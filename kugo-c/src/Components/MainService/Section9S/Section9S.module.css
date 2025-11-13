@@ -1,0 +1,44 @@
+.nine_sec_all {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .nine_sec {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-self: center;
+        row-gap: 3rem;
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            .gal {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .fornazv{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .zarabotok {
+                display: flex;
+                flex-direction: column;
+                row-gap: 0.5rem;
+                p:nth-child(2){
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+            .sred {
+                display: flex;
+                align-items: center;
+                column-gap: 2rem;
+                padding: 1rem;
+                background-color: #6F73EE;
+                border-radius: 7px;
+                color: white;
+            }
+        }
+    }
+}

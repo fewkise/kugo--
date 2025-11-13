@@ -1,0 +1,40 @@
+.eight_sec_all {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    .eight_sec {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 80%;
+        row-gap: 5rem;
+        .fornazv {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 3rem;
+            .foremoji {
+                display: flex;
+                column-gap: 3rem;
+                justify-content: space-between;
+                .cont {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 2rem;
+                    width: 40%;
+                    align-self: center;
+                    justify-self: center;
+                    border: 1px solid #EAEBED;
+                    border-radius: 17px;
+                    padding: 2rem;
+                }
+            }
+        }
+    }
+}
+.slide {
+    display: flex;
+    flex-direction: column;
+}

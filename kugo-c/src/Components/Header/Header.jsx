@@ -19,8 +19,8 @@ const Header = () => {
       <div className={styles.nadnav}>
         <div className={styles.dannav}>
         <ul>
-          <Link to="/Service"><li><a href="">Сервис</a></li></Link>
-          <li><a href="">Сотрудничество</a></li>
+          <Link to="/Service"><li>Сервис</li></Link>
+          <Link to="/Cooperate"><li>Сотрудничество</li></Link>
           <li><a href="">Заказать звонок</a></li>
           <li><a href=""><div><img src={logo_1} alt="" /></div></a><a href=""><div><img src={logo_2} alt="" /></div></a><a href=""><div><img src={logo_3} alt="" /></div></a></li>
         </ul>

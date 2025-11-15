@@ -1,0 +1,85 @@
+.sec_two_all {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .sec_two {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        align-self: center;
+        justify-self: center;
+        .sprava{
+            display: flex;
+            flex-direction: column;
+            row-gap: 5rem;
+            align-items: flex-end;
+            .percent {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                column-gap: 2rem;
+                width: 55%;
+                padding: 1rem;
+                border-radius: 17px;
+                border: 1px solid #EAEBED;
+                p:nth-child(1){
+                    font-size: 50px;
+                    font-weight: 600;
+                    color: #6F73EE;
+                }
+            }
+        }
+        .sleva {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            .fordisc {
+                display: flex;
+                column-gap: 2rem;
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 1rem;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 2rem;
+                    background-color: #F4F7FB;
+                    text-align: center;
+                    border-radius: 17px;
+                    p:nth-child(1){
+                        color: #6F73EE;
+                        span  {
+                            font-size: 35px;
+                            font-weight: 600;
+                            color: #6F73EE;
+                        }
+                    }
+                }
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                row-gap: 1rem;
+                li:nth-child(1){
+                    p{
+                    font-size: 20px;
+                    font-weight: 500;
+                    }
+                        
+                }
+                li {
+                    display: flex;
+                    column-gap: 1rem;
+                    align-items: center;
+
+                }
+            }
+            .fornazv {
+                font-size: 35px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+        }
+    }
+}

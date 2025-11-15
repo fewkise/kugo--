@@ -10,6 +10,7 @@ import Section7S from './Section7S/Section7S'
 import Section8S from './Section8S/Section8S'
 import Section9S from './Section9S/Section9S'
 import Section11 from '../Main/Section11/Section11'
+import Section10S from './Section10S/Section10S'
 const MainService = () => {
   return (
     <div className={styles.mainService}>
@@ -23,6 +24,7 @@ const MainService = () => {
       <Section8S/>
       <Section9S/>
       <Section11/>
+      <Section10S/>
     </div>
   )
 }

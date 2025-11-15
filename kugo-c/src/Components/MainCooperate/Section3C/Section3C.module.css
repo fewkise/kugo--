@@ -1,0 +1,27 @@
+.sec_three_all{
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    .sec_three {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-self: center;
+        .nazv {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            p:nth-child(1){
+                font-size: 35px;
+                font-weight: 600;
+                text-transform: uppercase;
+                span {
+                    font-size: 35px;
+                    font-weight: 600;
+                    color: #6F73EE;
+                }
+            }
+        }
+    }
+}

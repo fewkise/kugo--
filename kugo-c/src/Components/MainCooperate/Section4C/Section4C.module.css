@@ -1,26 +1,24 @@
-.sec_six_all {
-    display: flex;
-    flex-direction: column;
+.sec_four_all {
+    display:flex;
     width: 100%;
-    .sec_six {
-        width: 80%;
+    flex-direction: column;
+    .sec_four {
         display: flex;
-        row-gap: 3rem;
+        flex-direction: column;
+        width: 80%;
         align-self: center;
         justify-self: center;
-        justify-content: space-between;
-        .sleva {
-            width: 35%;
+        row-gap: 5rem;
+        align-items: center;
+        .nazv {
             display: flex;
             flex-direction: column;
             row-gap: 2rem;
+            text-align: center;
             p:nth-child(1){
                 font-size: 35px;
                 font-weight: 600;
                 text-transform: uppercase;
-            }
-            p {
-                font-size: 18px;
             }
         }
     }
